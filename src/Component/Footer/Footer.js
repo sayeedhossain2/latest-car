@@ -59,7 +59,7 @@ const Footer = () => {
           className="text-xl pb-6 pt-3"
         >
           Copyright © 2022. All Rights Reserved By{" "}
-          <span className="text-red-400"> Huntdigitalmedia.com</span>
+          <span className="text-primary font-bold"> Huntdigitalmedia.com</span>
         </h1>
       </footer>
     </div>
