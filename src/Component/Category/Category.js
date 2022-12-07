@@ -8,8 +8,8 @@ import rangerover from "../../assets/car16.jpg";
 
 const Category = () => {
   return (
-    <div className="text-accent mt-10">
-      <h2 className="text-4xl font-bold">Latest Cars</h2>
+    <div className="text-accent mt-10 bg-info  -mt-0">
+      <h2 className="text-4xl font-bold pt-10">Latest Cars</h2>
       <p className="text-xl mb-5">
         Here is our new collection , if you want to buy please stay sometimes
         and see all featured, <br />
@@ -18,7 +18,7 @@ const Category = () => {
       <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:w-11/12 mx-auto">
         {" "}
         {/* car-1 */}
-        <div className="card w-full bg-base-100 shadow-xl   hover:scale-105 duration-500">
+        <div className="card w-full bg-base-100 shadow-xl  bg-neutral text-primary  hover:scale-105 duration-500">
           <figure className="px-10 pt-10">
             <img
               style={{
@@ -44,18 +44,18 @@ const Category = () => {
             >
               <span> $ 3.75 crore onwards </span>{" "}
               <span>
-                <button className="bg-orange-600 rounded-xl border-none btn btn-sm ml-20">
+                <button className="bg-info text-primary rounded-xl  border-none btn btn-sm ml-20">
                   Available
                 </button>
               </span>
             </p>
             <div className="card-actions ">
-              <button className="btn btn-primary">Buy Now</button>
+              <button className="btn bg-info text-primary">Buy Now</button>
             </div>
           </div>
         </div>
         {/* car-2 */}
-        <div className="card w-full bg-base-100 shadow-xl  hover:scale-105 duration-500">
+        <div className="card w-full bg-base-100 shadow-xl  bg-neutral text-primary  hover:scale-105 duration-500">
           <figure className="px-10 pt-10">
             <img
               style={{
@@ -81,18 +81,18 @@ const Category = () => {
             >
               <span> $ 2.75 crore onwards </span>{" "}
               <span>
-                <button className="bg-orange-600  mt-3 rounded-xl border-none btn btn-sm ml-20">
+                <button className="bg-info text-primary  mt-3 rounded-xl border-none btn btn-sm ml-20">
                   Available
                 </button>
               </span>
             </p>
             <div className="card-actions">
-              <button className="btn btn-primary">Buy Now</button>
+              <button className="btn bg-info text-primary">Buy Now</button>
             </div>
           </div>
         </div>
         {/* car-3 */}
-        <div className="card w-full bg-base-100 shadow-xl  hover:scale-105 duration-500">
+        <div className="card w-full bg-base-100 shadow-xl bg-neutral text-primary  hover:scale-105 duration-500">
           <figure className="px-10 pt-10">
             <img
               style={{
@@ -117,18 +117,18 @@ const Category = () => {
             >
               <span> $ 3.44 crore onwards </span>{" "}
               <span>
-                <button className="bg-orange-600 rounded-xl  mt-3 border-none btn btn-sm ml-20">
+                <button className="bg-info text-primary rounded-xl  mt-3 border-none btn btn-sm ml-20">
                   Available
                 </button>
               </span>
             </p>
             <div className="card-actions">
-              <button className="btn btn-primary">Buy Now</button>
+              <button className="btn bg-info text-primary">Buy Now</button>
             </div>
           </div>
         </div>
         {/* car-4 */}
-        <div className="card w-full bg-base-100 shadow-xl  hover:scale-105 duration-500">
+        <div className="card w-full bg-base-100 shadow-xl bg-neutral text-primary  hover:scale-105 duration-500">
           <figure className="px-10 pt-10">
             <img
               style={{
@@ -153,18 +153,18 @@ const Category = () => {
             >
               <span> $ 3.25 crore onwards </span>{" "}
               <span>
-                <button className="bg-orange-600 rounded-xl  mt-3 border-none btn btn-sm ml-20">
+                <button className="bg-info text-primary rounded-xl  mt-3 border-none btn btn-sm ml-20">
                   Available
                 </button>
               </span>
             </p>
             <div className="card-actions">
-              <button className="btn btn-primary">Buy Now</button>
+              <button className="btn bg-info text-primary">Buy Now</button>
             </div>
           </div>
         </div>
         {/* car-5 */}
-        <div className="card w-full bg-base-100 shadow-xl  hover:scale-105 duration-500">
+        <div className="card w-full bg-base-100 shadow-xl bg-neutral text-primary  hover:scale-105 duration-500">
           <figure className="px-10 pt-10">
             <img
               style={{
@@ -189,18 +189,18 @@ const Category = () => {
             >
               <span> $ 3.70 crore onwards </span>{" "}
               <span>
-                <button className="bg-orange-600 rounded-xl  mt-3 border-none btn btn-sm ml-20">
+                <button className="bg-info text-primary rounded-xl  mt-3 border-none btn btn-sm ml-20">
                   Available
                 </button>
               </span>
             </p>
             <div className="card-actions">
-              <button className="btn btn-primary">Buy Now</button>
+              <button className="btn bg-info text-primary">Buy Now</button>
             </div>
           </div>
         </div>
         {/* car-6 */}
-        <div className="card w-full bg-base-100 shadow-xl  hover:scale-105 duration-500">
+        <div className="card w-full bg-base-100 shadow-xl bg-neutral text-primary  hover:scale-105 duration-500">
           <figure className="px-10 pt-10">
             <img
               style={{
@@ -225,18 +225,18 @@ const Category = () => {
             >
               <span> $ 3.33 crore onwards </span>{" "}
               <span>
-                <button className="bg-orange-600 rounded-xl  mt-3 border-none btn btn-sm ml-20">
+                <button className="bg-info text-primary rounded-xl  mt-3 border-none btn btn-sm ml-20">
                   Available
                 </button>
               </span>
             </p>
             <div className="card-actions">
-              <button className="btn btn-primary">Buy Now</button>
+              <button className="btn bg-info text-primary">Buy Now</button>
             </div>
           </div>
         </div>
       </div>
-      <button className="btn  btn-outline btn-error my-10">View All</button>
+      <button className="btn bg-neutral text-primary my-10">View All</button>
     </div>
   );
 };
